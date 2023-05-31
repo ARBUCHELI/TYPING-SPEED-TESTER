@@ -48,14 +48,14 @@ function stopTimer() {
 
 function updateTimer() {
   elapsedTime = Math.floor((new Date().getTime() - startTime) / 1000);
-  timerElement.textContent = elapsedTime;
+  timerElement.textContent = 'Seconds: ' + elapsedTime;
 }
 
 function resetTimer() {
   clearInterval(timerInterval);
   timerInterval = null;
   elapsedTime = 0;
-  timerElement.textContent = '0';
+  timerElement.textContent = 'Seconds: 0';
   inputField.value = '';
   updateCharacterCount();
   startTime = null;
