@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  p {
+    margin: 10px 0;
+  }
+  
+  #input-field {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .timer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #timer {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  #pause-btn,
+  #reset-btn {
+    margin: 0 5px;
+    font-size: 16px;
+    padding: 5px 10px;
+  }
+  
